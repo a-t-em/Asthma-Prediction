@@ -2,10 +2,12 @@ This is a submission for [DataTalksClub's MLOps Zoomcamp 2024](https://github.co
 
 **Dataset**
 
-[Source](https://rishabhmisra.github.io/publications/): Misra, Rishabh and Prahal Arora. "Sarcasm Detection using News Headlines Dataset." AI Open (2023).
+[Source](https://doi.org/10.34740/KAGGLE/DSV/8669080): Rabie El Kharoua. (2024). 🌬️ Asthma Disease Dataset 🌬️ [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8669080 
 
-Link to dataset on [Kaggle](https://www.kaggle.com/datasets/rmisra/news-headlines-dataset-for-sarcasm-detection).
+Brief Description: This is a small, curated dataset containing anonymized health data of 2,392 patients, a minority of which have been diagnosed with Asthma Disease. 
 
 **Model**
 
-Binary classification model for detecting whether a news headline is sarcastic or not
+The model is a simple Random Forest binary classification model.
+
+
