@@ -15,17 +15,19 @@ Model inputs: select features with relatively higher correlation with the target
 Model outputs: an array containing the value 0 for a negative diagnosis (no asthma) and the value 1 for a positive diagnosis (asthma)
 
 **Dependencies**
-pandas
-numpy
-sklearn
-imbalanced-learn
-seaborn
-matplotlib
-mlflow
-pytest
-pickle
-io
-json
+
+pandas<br>
+numpy<br>
+numpy<br>
+sklearn<br>
+imbalanced-learn<br>
+seaborn<br>
+matplotlib<br>
+mlflow<br>
+pytest<br>
+pickle<br>
+io<br>
+json<br>
 
 
 
