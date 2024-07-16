@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/836971815908963715/91af8347ad584189871c4b383e5f1bbf/artifacts
+end_time: 1721141384087
+entry_point_name: ''
+experiment_id: '836971815908963715'
+lifecycle_stage: active
+run_id: 91af8347ad584189871c4b383e5f1bbf
+run_name: capable-asp-322
+run_uuid: 91af8347ad584189871c4b383e5f1bbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721141311562
+status: 3
+tags: []
+user_id: User

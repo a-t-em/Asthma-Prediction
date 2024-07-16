@@ -1,0 +1,30 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+mlflow_version: 2.14.3
+model_size_bytes: 7844989
+model_uuid: c1cfc364bb694d2f883f573e345d7033
+run_id: e507e6d5ec5d430bb8c9a5a9ea5f8871
+signature:
+  inputs: '[{"type": "double", "name": "DustExposure", "required": true}, {"type":
+    "long", "name": "GastroesophagealReflux", "required": true}, {"type": "double",
+    "name": "LungFunctionFEV1", "required": true}, {"type": "double", "name": "LungFunctionFVC",
+    "required": true}, {"type": "long", "name": "Wheezing", "required": true}, {"type":
+    "long", "name": "ChestTightness", "required": true}, {"type": "long", "name":
+    "Coughing", "required": true}, {"type": "long", "name": "NighttimeSymptoms", "required":
+    true}, {"type": "long", "name": "ExerciseInduced", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-07-16 15:01:05.132472'

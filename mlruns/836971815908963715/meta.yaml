@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/836971815908963715
+creation_time: 1721139793649
+experiment_id: '836971815908963715'
+last_update_time: 1721139793649
+lifecycle_stage: active
+name: asthma-prediction

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/836971815908963715/770b23831baf4e8ebf4359e85fae0b32/artifacts
+end_time: 1721168971251
+entry_point_name: ''
+experiment_id: '836971815908963715'
+lifecycle_stage: active
+run_id: 770b23831baf4e8ebf4359e85fae0b32
+run_name: skittish-slug-246
+run_uuid: 770b23831baf4e8ebf4359e85fae0b32
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721168896153
+status: 3
+tags: []
+user_id: User

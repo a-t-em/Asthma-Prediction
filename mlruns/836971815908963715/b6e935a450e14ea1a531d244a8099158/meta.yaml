@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/836971815908963715/b6e935a450e14ea1a531d244a8099158/artifacts
+end_time: 1721140939690
+entry_point_name: ''
+experiment_id: '836971815908963715'
+lifecycle_stage: active
+run_id: b6e935a450e14ea1a531d244a8099158
+run_name: upbeat-deer-143
+run_uuid: b6e935a450e14ea1a531d244a8099158
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721140933052
+status: 4
+tags: []
+user_id: User

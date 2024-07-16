@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/836971815908963715/a846c65092924f1ea87b5108d067a810/artifacts
+end_time: 1721142241843
+entry_point_name: ''
+experiment_id: '836971815908963715'
+lifecycle_stage: active
+run_id: a846c65092924f1ea87b5108d067a810
+run_name: adaptable-hen-573
+run_uuid: a846c65092924f1ea87b5108d067a810
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721142168083
+status: 4
+tags: []
+user_id: User
