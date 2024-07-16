@@ -21,6 +21,11 @@ sklearn
 imbalanced-learn
 seaborn
 matplotlib
+mlflow
+pytest
+pickle
+io
+json
 
 
 
