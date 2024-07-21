@@ -2,3 +2,4 @@ venv/
 mlruns/
 mlartifacts/
 __pycache__/
+workspace/
