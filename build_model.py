@@ -51,8 +51,8 @@ def create_model(data_path="./data/asthma_disease_data.csv"):
     df = pd.read_csv(data_path)
     features, target = get_data(df)
 
-    mlflow.set_experiment("asthma_prediction")
     mlflow.set_tracking_uri("http://127.0.0.1:5000/")
+    mlflow.set_experiment("asthma_prediction")
 
     smote = SMOTETomek(random_state=42)
     X, y = smote.fit_resample(features, target)

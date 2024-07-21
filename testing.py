@@ -8,7 +8,7 @@ def test_prediction():
     Modify the test_case dictionary to experiment with different input data.
     """
     # The URL of the Flask app (replace with your actual URL)
-    url = 'http://127.0.0.1:5000/predict'
+    url = 'http://127.0.0.1:8080/predict'
 
     # Example data (modify to experiment)
     test_case = {

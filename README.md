@@ -36,9 +36,11 @@ Model outputs: an array containing the value 0 for a negative diagnosis (no asth
 
 ## **Usage**
 
-Clone the repository and run `make setup` in the terminal (which requires [Make](https://www.technewstoday.com/install-and-use-make-in-windows/) to be installed first). This will launch a virtual environment and install all dependencies from `requirements.txt`. You can then launch the Flask app with `make launch_app` and then test it using `make test` command. 
+Clone the repository and run `make setup` in the terminal (which requires [Make](https://www.technewstoday.com/install-and-use-make-in-windows/) to be installed first). This will launch a virtual environment and install all dependencies from `requirements.txt`. To launch mlflow server with SQL backend locally and train the model, enter `make build_model` into the terminal. You can then view the monitoring metrics in your browser at `localhost:5000`.
 
-Alternatively, you can run `make all` to set up the environment and launch the Flask app.
+To deploy the model as a prediction endpoint, you can launch the Flask app with `make launch_app`. It would then be available on port 8080 for posting JSON requests. You may test it with custom test cases using `make test` command that will run the test case in `testing.py`. 
+
+Alternatively, you can run `make all` to set up the environment, build the model, and launch the Flask app successively; or if the environment is already ready, you can enter `make run` to only do the latter two. 
 
 ## **Dependencies - `requirements.txt`**
  
