@@ -1,4 +1,4 @@
-# Run setup and all scripts
+# Run setup and launch app
 all: setup launch_app
 
 # Set up the virtual environment
@@ -6,11 +6,11 @@ setup:
 	python -m venv venv
 	pip install -r requirements.txt
 
-# Run the scoring script (Flask app)
+# Run the Flask app
 launch_app:
 	python scoring_script.py
 
-# Run tests after launching the app
+# Run tests only after launching the app
 test:
 	pytest testing.py
 
